@@ -26,7 +26,7 @@ class AllAds extends StatelessWidget {
               children: [
                 //Container for icon, search ads bar, and 'Ads' text
                 Expanded(
-                  flex: 3,
+                  flex: 4,
                   child: Container(
                     margin:
                         EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
@@ -90,7 +90,7 @@ class AllAds extends StatelessWidget {
                   ]),
                 ),
                 Expanded(
-                  flex: 18,
+                  flex: 28,
                   child: Container(
                     child: TabBarView(
                       children: [

@@ -94,7 +94,7 @@ class _DashboardState extends State<Dashboard> {
                 children: [
                   //For text 'Total Ads'
                   Container(
-                    margin: EdgeInsets.all(5.0),
+                    margin: EdgeInsets.all(10.0),
                     child: Text(
                       'Total Ads',
                       style: Theme.of(context).textTheme.bodyText2.copyWith(
@@ -103,7 +103,7 @@ class _DashboardState extends State<Dashboard> {
                   ),
                   //Row for Ad Status Tiles
                   Container(
-                    height: MediaQuery.of(context).size.height * 0.25,
+                    height: 150.0,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -176,7 +176,7 @@ class _DashboardState extends State<Dashboard> {
                   //Row for showing pending categories
                   Container(
                     width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * 0.25,
+                    height: 150.0,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -255,7 +255,7 @@ class _DashboardState extends State<Dashboard> {
                   //Pending Ads go into this Row below
                   Container(
                     width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * 0.55,
+                    height: 350.0,
                     child: Row(
                       children: [
                         Expanded(
